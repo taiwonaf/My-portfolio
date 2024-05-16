@@ -20,7 +20,7 @@ const index = () => {
   const [mobileMenuOpen, setMobileMenuOpen] = useState(false);
 
   return (
-    <header className="fixed top-[20px] right-0 left-0 px-[16px]">
+    <header className="fixed top-[20px] right-0 left-0 px-[16px] z-[10000]">
       <nav
         className="mx-auto flex max-w-7xl items-center justify-between gap-x-6 p-6 lg:px-8 border-[1px] border-black dark:border-white/50 backdrop-blur-sm bg-white dark:bg-background/50"
         aria-label="Global"
