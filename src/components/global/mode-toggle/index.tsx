@@ -12,7 +12,7 @@ import {
   DropdownMenuTrigger,
 } from "@/components/ui/dropdown-menu";
 
-const index = () => {
+const ModeToggle = () => {
   const { setTheme } = useTheme();
 
   return (
@@ -39,4 +39,4 @@ const index = () => {
   );
 };
 
-export default index;
+export default ModeToggle;

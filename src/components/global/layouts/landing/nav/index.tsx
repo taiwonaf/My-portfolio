@@ -16,7 +16,7 @@ const navigation = [
   { name: "Experience", href: "#" },
 ];
 
-const index = () => {
+const LandingNav = () => {
   const [mobileMenuOpen, setMobileMenuOpen] = useState(false);
 
   return (
@@ -117,4 +117,4 @@ const index = () => {
   );
 };
 
-export default index;
+export default LandingNav;

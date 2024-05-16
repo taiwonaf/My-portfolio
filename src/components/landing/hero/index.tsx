@@ -1,10 +1,11 @@
 import { MobileProfile, ProfilePic, HeroBgImg } from "@/assets";
+import { Socials } from "@/components";
 import { SectionContainer } from "@/components/global";
 import { Button } from "@/components/ui/button";
 import Image from "next/image";
 import React from "react";
 
-const index = () => {
+const Hero = () => {
   return (
     <SectionContainer bgImage={HeroBgImg}>
       <div className="flex flex-col md:flex-row justify-center gap-[50px] sm:gap-[20px] md:justify-between items-center h-screen pt-[150px] pb-[150px]">
@@ -17,9 +18,10 @@ const index = () => {
               experience creating user friendly websites
             </p>
           </div>
-          <Button className="capitalize border-black dark:border-white border-[2px] font-semibold">
+          <Button className="capitalize border-black dark:border-white border-[2px] font-semibold mb-[40px]">
             Contact me
           </Button>
+          <Socials />
         </div>
         <div className="md:flex-[0.5] order-1 md:order-2 flex justify-center items-center md:justify-end md:items-start">
           <div className="w-full h-full max-h-[400px] md:max-h-none md:h-[400px]">
@@ -40,4 +42,4 @@ const index = () => {
   );
 };
 
-export default index;
+export default Hero;
