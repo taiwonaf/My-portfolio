@@ -8,10 +8,10 @@ import React from "react";
 const Hero = () => {
   return (
     <SectionContainer bgImage={HeroBgImg}>
-      <div className="flex flex-col md:flex-row justify-center gap-[50px] sm:gap-[20px] md:justify-between items-center h-screen pt-[150px] pb-[150px]">
+      <div className="flex flex-col md:flex-row justify-center gap-[50px] sm:gap-[20px] md:justify-between items-center min-h-screen pt-[150px] pb-[150px]">
         <div className="md:flex-[0.5] order-2 md:order-1 text-center md:text-left">
           <div className="mb-[20px] flex flex-col gap-[10px] max-w-[550px]">
-            <h2 className="text-xl">Hi, I`&apos;`m</h2>
+            <h2 className="text-xl">Hi, I&apos;m</h2>
             <h1 className="text-5xl font-bold">Nafiu Taiwo Solomon</h1>
             <p className="text-lg">
               A passionate <span>Frontend Web developer</span> with 3 years
