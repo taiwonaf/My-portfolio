@@ -23,7 +23,7 @@ const LandingNav = () => {
   return (
     <header className="fixed top-[20px] right-0 left-0 px-[16px] z-[10000]">
       <nav
-        className="mx-auto flex max-w-7xl items-center justify-between gap-x-6 p-6 lg:px-8 border-[1px] border-black dark:border-white/50 backdrop-blur-sm bg-white dark:bg-background/50"
+        className="mx-auto flex max-w-7xl items-center justify-between gap-x-6 px-6 py-4 lg:px-8 border-[1px] border-black dark:border-white/50 backdrop-blur-sm bg-white/50 dark:bg-background/50 rounded-md"
         aria-label="Global"
       >
         <div className="flex lg:flex-1">
@@ -32,7 +32,7 @@ const LandingNav = () => {
             <h1>Taiwo</h1>
           </a>
         </div>
-        <div className="hidden lg:flex lg:gap-x-12">
+        <div className="hidden lg:flex lg:gap-x-6">
           {navigation.map((item) => (
             <NavItem key={item.name} {...item} />
           ))}

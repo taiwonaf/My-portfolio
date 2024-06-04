@@ -48,7 +48,7 @@ const index = () => {
       <SectionTitle title="Experience" />
       <div className="flex justify-center items-center mb-[10px]">
         <SectionDescription className="max-w-[700px] w-full mb-[20px] text-primary">
-          The skills, tools and technologies I am really good at:
+          Here is a quick summary of my most recent experiences
         </SectionDescription>
       </div>
       <Accordion type="single" collapsible className="w-full text-left">
