@@ -42,7 +42,7 @@ const index = () => {
       <SectionTitle title="Works" />
       <div className="flex justify-center items-center">
         <SectionDescription className="max-w-[700px] w-full mb-[20px] text-primary">
-          Things I've built so far
+          Things I&apos;ve built so far
         </SectionDescription>
       </div>
       <div className="flex justify-center items-center flex-wrap gap-[20px]">
