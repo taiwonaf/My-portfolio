@@ -8,7 +8,7 @@ const AboutMe = () => {
   return (
     <SectionContainer className="pt-[50px] pb-[100px]">
       <SectionTitle title="About me" />
-      <SectionDescription className="max-w-[600px] w-full mb-[20px]">
+      <SectionDescription className="max-w-[600px] w-full mb-[20px] text-primary">
         Transforming visions into exceptional portfolios
       </SectionDescription>
       <p className="text-[22px] font-normal">

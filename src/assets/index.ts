@@ -1,3 +1,10 @@
 export { default as ProfilePic } from "./images/profile pic.png";
 export { default as MobileProfile } from "./images/mobile profile.png";
 export { default as HeroBgImg } from "./images/hero_bg.jpg";
+export { default as JavascriptImg } from "./images/javascript.png";
+export { default as GitImage } from "./images/git.png";
+export { default as FigmaImage } from "./images/figma.png";
+export { default as NextImage } from "./images/next.png";
+export { default as NpmImage } from "./images/npm.png";
+export { default as TailwindImage } from "./images/tailwindcss.png";
+export { default as TypescriptImage } from "./images/typescript.png";

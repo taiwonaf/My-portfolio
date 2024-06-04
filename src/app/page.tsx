@@ -1,5 +1,5 @@
 import { LandingContainer } from "@/components";
-import { LandingNav } from "@/components/global/layouts/landing";
+import { LandingFooter, LandingNav } from "@/components/global/layouts/landing";
 import React from "react";
 
 const page = () => {
@@ -9,6 +9,7 @@ const page = () => {
       <main>
         <LandingContainer />
       </main>
+      <LandingFooter />
     </>
   );
 };
