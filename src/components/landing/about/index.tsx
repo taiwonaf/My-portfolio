@@ -21,7 +21,7 @@ const AboutMe = () => {
         problem-solving, I bring ideas to life using frontend technologies like
         HTML, CSS, Javascript and various framewokrs. My experties spans from
         responsive design to dynamic interactions, ensuring fast, accessible,
-        and modern interfaces that delight users. Let's connect and build
+        and modern interfaces that delight users. Let&apos;s connect and build
         something amazing together.
       </p>
     </SectionContainer>
