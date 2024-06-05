@@ -12,16 +12,17 @@ const AboutMe = () => {
     >
       <SectionTitle title="About me" />
       <SectionDescription className="md:max-w-[600px] text-center md:text-left w-full mb-[20px] text-primary">
-        Transforming visions into exceptional portfolios
+        Solving problems digitaly one component at a time
       </SectionDescription>
       <p className="text-[22px] font-normal">
-        With over 4 years of hands-on experience in UX/UI design and frontend
-        web development, I bring a wealth of expertise to every project.
-        Meticulous attention to detail coupled with a deep understanding of user
-        experience principles ensures that each design is not only visually
-        captivating but also intuitive and user- friendly. From crafting elegant
-        interfaces to implementing responsive layouts, I am dedicated to
-        delivering top-notch solutions that exceed expectations.
+        As a passionate and innovative frontend developer, I specialize in
+        crafting seamless and intuitive user experiences for both mobile and web
+        applications. With a keen eye for design and a knack for
+        problem-solving, I bring ideas to life using frontend technologies like
+        HTML, CSS, Javascript and various framewokrs. My experties spans from
+        responsive design to dynamic interactions, ensuring fast, accessible,
+        and modern interfaces that delight users. Let's connect and build
+        something amazing together.
       </p>
     </SectionContainer>
   );

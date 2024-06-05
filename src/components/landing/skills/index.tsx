@@ -51,7 +51,7 @@ const Skills = () => {
       <SectionTitle title="Skills" />
       <div className="flex justify-center items-center">
         <SectionDescription className="max-w-[700px] w-full mb-[20px] text-primary">
-          The skills, tools and technologies I am really good at:
+          The skills, tools and technologies I have used before:
         </SectionDescription>
       </div>
       <div className="flex justify-center items-center flex-wrap gap-[20px]">

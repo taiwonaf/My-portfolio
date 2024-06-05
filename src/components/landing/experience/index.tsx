@@ -17,30 +17,65 @@ const index = () => {
   const experience = [
     {
       title: "Frontend Intern - Sanwo",
-      location: "Ibadan, Nigeria",
+      location: "Remote",
       site: "https://sanwo.io",
       companyName: "Sanwo.io",
       description:
         " At Lelavtech, I design and develop captivating web solutions that seamlessly blend creativity and functionality.",
-      tags: ["HTML", "CSS", "TAILWIND CSS", "REACT", "REDUX TOOLKIT"],
+      tags: [
+        "CSS",
+        "TAILWIND CSS",
+        "REACT",
+        "REDUX TOOLKIT",
+        "CHAKRA UI",
+        "NEXT JS",
+      ],
     },
     {
-      title: "Frontend Intern - Sanwo",
-      location: "Ibadan, Nigeria",
-      site: "https://sanwo.io",
-      companyName: "Sanwo.io",
+      title: "Frontend Mobile and Web Developer - NDIA (Food devliery startup)",
+      location: "Remote",
+      site: "https://ndia.ng",
+      companyName: "NDIA",
       description:
-        " At Lelavtech, I design and develop captivating web solutions that seamlessly blend creativity and functionality.",
-      tags: ["HTML", "CSS", "TAILWIND CSS", "REACT", "REDUX TOOLKIT"],
+        " At NDAI, I collaborated with other frontend developers to build the NDIA vendor, customer and rider app using react native and the NDIA admin dashboard using NEXT JS",
+      tags: [
+        "REACT",
+        "REACT NATIVE",
+        "TAILWIND CSS",
+        "SHADCN UI",
+        "REDUX TOOLKIT",
+      ],
     },
     {
-      title: "Frontend Intern - Sanwo",
+      title: "Frontend Freelancer - FIVERR",
       location: "Ibadan, Nigeria",
       site: "https://sanwo.io",
       companyName: "Sanwo.io",
       description:
-        " At Lelavtech, I design and develop captivating web solutions that seamlessly blend creativity and functionality.",
-      tags: ["HTML", "CSS", "TAILWIND CSS", "REACT", "REDUX TOOLKIT"],
+        "On the FIVERR freelancing platfrom, I offer paid consultation to individuals or businesses using code and no code tools. ",
+      tags: [
+        "HTML",
+        "CSS",
+        "TAILWIND CSS",
+        "REACT",
+        "REDUX TOOLKIT",
+        "REACT NATIVE",
+        "WORDPRESS",
+        "WEBFLOW",
+        "FRAMER",
+        "WIX",
+        "BUBBLE.io",
+        "ADALO",
+      ],
+    },
+    {
+      title: "Frontend Intern - HGN INTERNSHIP",
+      location: "Remote",
+      site: "https://internship.zuri.team/",
+      companyName: "HGN",
+      description:
+        "During the HNG intership 9 cohort, I collaborated with other frontend developers, backend developers, project managers and devops as a frontend developer to build a stock recommendation web application. ",
+      tags: ["TAILWIND CSS", "REACT", "NEXT JS"],
     },
   ];
   return (
