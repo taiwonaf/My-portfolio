@@ -44,7 +44,10 @@ const index = () => {
     },
   ];
   return (
-    <SectionContainer className="pt-[50px] pb-[100px] text-center">
+    <SectionContainer
+      className="pt-[50px] pb-[100px] text-center"
+      id="experience"
+    >
       <SectionTitle title="Experience" />
       <div className="flex justify-center items-center mb-[10px]">
         <SectionDescription className="max-w-[700px] w-full mb-[20px] text-primary">

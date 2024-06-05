@@ -1,4 +1,4 @@
-import { Github, MailIcon, XIcon } from "lucide-react";
+import { Github, Linkedin, MailIcon, XIcon } from "lucide-react";
 import React from "react";
 import { Button } from "../ui/button";
 import Link from "next/link";
@@ -19,6 +19,11 @@ const socials = [
     icon: MailIcon,
     link: "gmail.com/taiwonaf",
   },
+  {
+    name: "Linkedin",
+    icon: Linkedin,
+    link: "linkedin.com/taiwonaf",
+  },
 ];
 
 const index = () => {
@@ -29,7 +34,7 @@ const index = () => {
           <Link
             key={index}
             href={item.link}
-            className=" rounded-md border-input bg-background hover:bg-accent p-2 dark:border-white border"
+            className=" rounded-md border-primary bg-background hover:bg-accent p-2 dark:border-white border"
           >
             <item.icon className="h-5 w-5" />
           </Link>

@@ -6,9 +6,12 @@ import {
 
 const AboutMe = () => {
   return (
-    <SectionContainer className="pt-[50px] pb-[100px]">
+    <SectionContainer
+      className="pt-[50px] pb-[100px] text-center md:text-left"
+      id="about"
+    >
       <SectionTitle title="About me" />
-      <SectionDescription className="max-w-[600px] w-full mb-[20px] text-primary">
+      <SectionDescription className="md:max-w-[600px] text-center md:text-left w-full mb-[20px] text-primary">
         Transforming visions into exceptional portfolios
       </SectionDescription>
       <p className="text-[22px] font-normal">

@@ -14,17 +14,18 @@ const Hero = () => {
             <h2 className="text-xl">Hi, I&apos;m</h2>
             <h1 className="text-5xl font-bold">Nafiu Taiwo Solomon</h1>
             <p className="text-lg">
-              A passionate <span>Frontend Web developer</span> with 3 years
-              experience creating user friendly websites
+              A passionate{" "}
+              <span className="font-bold text-primary">Frontend developer</span>{" "}
+              with 3 years experience creating user friendly websites, web
+              applications and mobile applications.
             </p>
           </div>
           <Button className="capitalize border-black dark:border-white border-[2px] font-semibold mb-[40px]">
             Contact me
           </Button>
-          <div className="flex justify-center items-center md:justify-start md:items-center gap-[20px]">
-            <h4 className="text-lg font-semibold">Socials: </h4>
-            <Socials />
-          </div>
+          <Socials />
+          {/* <div className="flex justify-center items-center md:justify-start md:items-center gap-[20px]">
+          </div> */}
         </div>
         <div className="md:flex-[0.5] order-1 md:order-2 flex justify-center items-center md:justify-end md:items-start">
           <div className="w-full h-full max-h-[400px] md:max-h-none md:h-[400px]">

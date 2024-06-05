@@ -5,12 +5,14 @@ interface IProp {
   className?: string;
   children: React.ReactNode;
   bgImage?: StaticImageData;
+  id?: string;
 }
 
-const index: React.FC<IProp> = ({ className, children, bgImage }) => {
+const index: React.FC<IProp> = ({ className, children, bgImage, id }) => {
   return (
     <div
       className={`flex justify-center items-center px-[16px] ${className} relative`}
+      id={id}
     >
       {bgImage && (
         <div className="absolute z-[1] inset-0">

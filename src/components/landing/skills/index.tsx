@@ -47,7 +47,7 @@ const skills = [
 
 const Skills = () => {
   return (
-    <SectionContainer className="pt-[50px] pb-[100px] text-center">
+    <SectionContainer className="pt-[50px] pb-[100px] text-center" id="skills">
       <SectionTitle title="Skills" />
       <div className="flex justify-center items-center">
         <SectionDescription className="max-w-[700px] w-full mb-[20px] text-primary">

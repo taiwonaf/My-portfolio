@@ -9,7 +9,7 @@ const index: React.FC<IProp> = ({ title }) => {
   return (
     <Badge
       variant="secondary"
-      className="py-[10px] px-[14px] text-[16px] backdrop-blur-md cursor-pointer rounded-[0]"
+      className="py-[10px] mb-[10px] px-[14px] text-[16px] backdrop-blur-md cursor-pointer rounded-[0]"
     >
       {title}
     </Badge>
