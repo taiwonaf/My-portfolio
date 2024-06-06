@@ -41,7 +41,7 @@ const index = () => {
     <SectionContainer className="pt-[50px] pb-[100px] text-center" id="works">
       <SectionTitle title="Works" />
       <div className="flex justify-center items-center">
-        <SectionDescription className="max-w-[700px] w-full mb-[20px] text-primary">
+        <SectionDescription className="max-w-[700px] w-full mb-[30px] text-primary">
           Things I&apos;ve built so far
         </SectionDescription>
       </div>

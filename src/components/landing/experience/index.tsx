@@ -84,7 +84,7 @@ const index = () => {
       id="experience"
     >
       <SectionTitle title="Experience" />
-      <div className="flex justify-center items-center mb-[10px]">
+      <div className="flex justify-center items-center mb-[20px]">
         <SectionDescription className="max-w-[700px] w-full mb-[20px] text-primary">
           Here is a quick summary of my most recent experiences
         </SectionDescription>
@@ -97,7 +97,9 @@ const index = () => {
               value={`item-${index + 1}`}
               className="px-5 py-2 border border-input bg-background hover:bg-accent hover:text-accent-foreground rounded-md mb-2"
             >
-              <AccordionTrigger>{item.title}</AccordionTrigger>
+              <AccordionTrigger className="text-left">
+                {item.title}
+              </AccordionTrigger>
               <AccordionContent>
                 <div className="flex justify-start items-center gap-[20px] mb-[10px]">
                   <div className="flex justify-start items-center gap-[5px]">
@@ -112,7 +114,7 @@ const index = () => {
                   </div>
                 </div>
                 <p>{item.description}</p>
-                <div className="py-[20px] flex justify-start items-center gap-3">
+                <div className="py-[20px] flex justify-start items-center flex-wrap gap-3">
                   {item?.tags.map((tag, index) => (
                     <WorkTag tag={tag} key={index} />
                   ))}

@@ -9,7 +9,7 @@ const WorkTag: React.FC<IProp> = ({ tag }) => {
   return (
     <Badge
       variant="secondary"
-      className="py-[5px] px-[8px] text-[12px] backdrop-blur-md cursor-pointer rounded-[0]"
+      className="py-[5px] px-[8px] text-[12px] backdrop-blur-md cursor-pointer rounded-[0] bg-primary text-white"
     >
       {tag}
     </Badge>

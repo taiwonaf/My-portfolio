@@ -50,7 +50,7 @@ const Skills = () => {
     <SectionContainer className="pt-[50px] pb-[100px] text-center" id="skills">
       <SectionTitle title="Skills" />
       <div className="flex justify-center items-center">
-        <SectionDescription className="max-w-[700px] w-full mb-[20px] text-primary">
+        <SectionDescription className="max-w-[700px] w-full mb-[30px] text-primary">
           The skills, tools and technologies I have used before:
         </SectionDescription>
       </div>

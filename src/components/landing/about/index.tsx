@@ -11,7 +11,7 @@ const AboutMe = () => {
       id="about"
     >
       <SectionTitle title="About me" />
-      <SectionDescription className="md:max-w-[600px] text-center md:text-left w-full mb-[20px] text-primary">
+      <SectionDescription className="md:max-w-[600px] text-center md:text-left w-full mb-[30px] text-primary">
         Solving problems digitaly one component at a time
       </SectionDescription>
       <p className="text-[22px] font-normal">
