@@ -8,3 +8,6 @@ export { default as NextImage } from "./images/next.png";
 export { default as NpmImage } from "./images/npm.png";
 export { default as TailwindImage } from "./images/tailwindcss.png";
 export { default as TypescriptImage } from "./images/typescript.png";
+export { default as MobileDevelopmentImg } from "./images/mobile_development.jpg";
+export { default as WebDevelopmentImg } from "./images/web_development.jpg";
+export { default as LowCodeImg } from "./images/no_code.jpg";

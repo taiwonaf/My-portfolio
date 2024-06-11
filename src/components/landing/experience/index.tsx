@@ -21,7 +21,7 @@ const index = () => {
       site: "https://sanwo.io",
       companyName: "Sanwo.io",
       description:
-        " At Lelavtech, I design and develop captivating web solutions that seamlessly blend creativity and functionality.",
+        " At Sanwo, I worked with another frontend developer to work on sanwo dashboard, sanwo membership (another product of sanwo) and product showcase sites.",
       tags: [
         "CSS",
         "TAILWIND CSS",

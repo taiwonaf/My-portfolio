@@ -4,12 +4,14 @@ import AboutMe from "./about";
 import Skills from "./skills";
 import Works from "./works";
 import Experience from "./experience";
+import Services from "./services";
 
 const index = () => {
   return (
     <>
       <Hero />
       <AboutMe />
+      <Services />
       <Skills />
       <Works />
       <Experience />
