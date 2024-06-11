@@ -6,14 +6,12 @@ import {
   SectionTitle,
 } from "@/components/global";
 import React, { useState } from "react";
-import Work from "./Service";
 import { motion } from "framer-motion";
 import Service from "./Service";
 import { LowCodeImg, MobileDevelopmentImg, WebDevelopmentImg } from "@/assets";
 
-const index = () => {
-  const [animateCard, setAnimateCard] = useState({ y: 0, opacity: 1 });
-  const works = [
+const Services = () => {
+  const services = [
     {
       title: "Web development",
       description:
@@ -44,17 +42,13 @@ const index = () => {
           What I do
         </SectionDescription>
       </div>
-      <motion.div
-        animate={animateCard}
-        transition={{ duration: 0.5, delayChildren: 0.5 }}
-        className="flex justify-center items-center flex-wrap gap-[20px]"
-      >
-        {works.map((item, index) => {
+      <div className="flex justify-center items-center flex-wrap gap-[20px]">
+        {services.map((item, index) => {
           return <Service {...item} key={index} />;
         })}
-      </motion.div>
+      </div>
     </SectionContainer>
   );
 };
 
-export default index;
+export default Services;

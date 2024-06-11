@@ -5,12 +5,10 @@ import {
   SectionDescription,
   SectionTitle,
 } from "@/components/global";
-import React, { useState } from "react";
+import React from "react";
 import Work from "./Work";
-import { motion } from "framer-motion";
 
-const index = () => {
-  const [animateCard, setAnimateCard] = useState({ y: 0, opacity: 1 });
+const Works = () => {
   const works = [
     {
       title: "Laundry App",
@@ -49,17 +47,13 @@ const index = () => {
           Things I&apos;ve built so far
         </SectionDescription>
       </div>
-      <motion.div
-        animate={animateCard}
-        transition={{ duration: 0.5, delayChildren: 0.5 }}
-        className="flex justify-center items-center flex-wrap gap-[20px]"
-      >
+      <div className="flex justify-center items-center flex-wrap gap-[20px]">
         {works.map((item, index) => {
           return <Work {...item} key={index} />;
         })}
-      </motion.div>
+      </div>
     </SectionContainer>
   );
 };
 
-export default index;
+export default Works;
